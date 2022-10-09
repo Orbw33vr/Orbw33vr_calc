@@ -11,10 +11,10 @@ function notCompatible(){
 function isCompatible(){
     alert("You two are "+ c +"% compatible.\nYou two are compatible AF!");
 }
-// if else statement with proper indentations below.
+// if else statement with proper indentations below. aka Control Flow
 if (c <= 50){
     notCompatible();
-} else{
+} else {
     if (c >= 51){
         isCompatible();
     }
