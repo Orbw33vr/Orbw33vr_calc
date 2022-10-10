@@ -5,17 +5,18 @@ let c = Math.random();
 c *= 100;
 c = Math.floor(c);
 //some functions practice
-function notCompatible(){
-    alert("You two are "+ c +"% compatible.\nSorry you two aren't too compatible.");
+function notCompatible() {
+  alert("You two are " + c + "% compatible.\nSorry you two aren't too compatible.");
 }
-function isCompatible(){
-    alert("You two are "+ c +"% compatible.\nYou two are compatible AF!");
+
+function isCompatible() {
+  alert("You two are " + c + "% compatible.\nYou two are compatible AF!");
 }
 // if else statement with proper indentations below. aka Control Flow
-if (c <= 50){
-    notCompatible();
+if (c <= 50) {
+  notCompatible();
 } else {
-    if (c >= 51){
-        isCompatible();
-    }
+  if (c >= 51) {
+    isCompatible();
+  }
 }

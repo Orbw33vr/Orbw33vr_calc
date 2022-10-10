@@ -1,5 +1,5 @@
 function getMilk(money, costPerBottle) {
-    //assigning money variable to function getMilk
+  //assigning money variable to function getMilk
   console.log("leaveHouse");
   console.log("moveRight");
   console.log("moveRight");
@@ -9,9 +9,9 @@ function getMilk(money, costPerBottle) {
   console.log("moveUp");
   console.log("moveRight");
   console.log("moveRight");
-    let bottlesOfMilk = Math.floor(money / costPerBottle);
-    //rounding down
-    console.log("buy "+ bottlesOfMilk + " bottles of milk")
+  let bottlesOfMilk = Math.floor(money / costPerBottle);
+  //rounding down
+  console.log("buy " + bottlesOfMilk + " bottles of milk")
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("moveDown");
@@ -21,13 +21,15 @@ function getMilk(money, costPerBottle) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
-    return money % costPerBottle;
+  return money % costPerBottle;
 }
-function calcBottles(startingMoney, costPerBottle){
-    let numberOfBottles = Math.floor(startingMoney / costPerBottle);
-    return numberOfBottles;
+
+function calcBottles(startingMoney, costPerBottle) {
+  let numberOfBottles = Math.floor(startingMoney / costPerBottle);
+  return numberOfBottles;
 }
-function calcChange(startingAmount, costPerBottle){
-    let change = startingAmount % costPerBottle;
+
+function calcChange(startingAmount, costPerBottle) {
+  let change = startingAmount % costPerBottle;
 }
-console.log("Hello master here is your "+ getMilk(18, 8) + " change.")
+console.log("Hello master here is your " + getMilk(18, 8) + " change.")
