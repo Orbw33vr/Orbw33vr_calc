@@ -18,9 +18,9 @@ function fib(n) {
       // adding the last item to the second to last item in the Array
     }
   }
-  return output;
+  console.log(output);
+  //return output;
   //returns the output as an array instead of just the array values
 }
 fib(265);
 // assigning a value to n
-console.log(output);
