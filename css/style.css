@@ -1,5 +1,6 @@
 /*enter some CSS or some Tailwind utilities here*/
-.bmi-calc {
+.bmi-calc,
+form {
   height: 3rem;
   width: 6rem;
 }
