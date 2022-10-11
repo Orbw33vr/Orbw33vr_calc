@@ -1,4 +1,8 @@
 /*enter some CSS or some Tailwind utilities here*/
+h1 {
+  text-align: center;
+}
+
 .bmi-calc,
 form {
   height: 3rem;
