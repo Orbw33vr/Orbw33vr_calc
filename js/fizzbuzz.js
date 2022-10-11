@@ -1,4 +1,5 @@
 // fizbuzz using for loop
+/*
 function exCute() {
   for (var i = 0; i < 101; i++;) {
     if (i % 15 === 0) {
@@ -13,12 +14,15 @@ function exCute() {
   }
 }
 exCute();
+*/
 
-/* fizzbuzz pushing to array using if statements
-
+// fizzbuzz pushing to array using if statements and while loop
+/**/
 let output = [];
 let count = 1;
 function fizzBuzz (){
+
+while (count <= 100){
 
   if (count % 15 === 0){
     output.push("FizzBuzz");
@@ -32,8 +36,8 @@ function fizzBuzz (){
     output.push(count);
   }
   count++;
+}
   console.log(output);
   }
 fizzBuzz();
-
-*/
+/**/
