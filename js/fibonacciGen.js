@@ -18,4 +18,4 @@ if (n === 1) {
     // adding the last item to the second to last item in the Array
   }
 }
-console.log(output);
+alert(output);
